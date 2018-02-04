@@ -1,7 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
-exports.isMapperComponent = undefined;
+exports.isMapperComponent = exports.mappersInfoSymbol = undefined;
 
 var _react = require('react');
 
@@ -35,6 +35,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var MAPPERS_INFO = (0, _createSymbol2.default)('mappersInfo');
+exports.mappersInfoSymbol = MAPPERS_INFO;
+
 var observablePropType = function observablePropType() {};
 
 var createComponentFromMappers = function createComponentFromMappers(mappers, childFactory) {

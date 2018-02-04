@@ -2,7 +2,7 @@
   "name": "recompact",
   "version": "3.2.1",
   "description": "A set of React high order components based on Rx.",
-  "main": "recompact.js",
+  "main": "dist/recompact.js",
   "repository": {
     "url": "git@github.com:neoziro/recompact.git",
     "type": "git"

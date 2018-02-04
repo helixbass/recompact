@@ -461,4 +461,13 @@ Object.defineProperty(exports, 'compactableSymbol', {
   }
 });
 
+var _createHOCFromMapper = require('./utils/createHOCFromMapper');
+
+Object.defineProperty(exports, 'mappersInfoSymbol', {
+  enumerable: true,
+  get: function get() {
+    return _createHOCFromMapper.mappersInfoSymbol;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
