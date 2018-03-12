@@ -1,8 +1,8 @@
 {
   "name": "recompact",
-  "version": "3.2.11111",
+  "version": "3.2.1",
   "description": "A set of React high order components based on Rx.",
-  "main": "dist/recompact.js",
+  "main": "recompact.js",
   "repository": {
     "url": "git@github.com:neoziro/recompact.git",
     "type": "git"
@@ -31,7 +31,10 @@
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
     },
     "coverageDirectory": "./coverage/",
-    "setupFiles": ["raf/polyfill", "<rootDir>/setupTests.js"]
+    "setupFiles": [
+      "raf/polyfill",
+      "<rootDir>/setupTests.js"
+    ]
   },
   "keywords": [
     "composition",
